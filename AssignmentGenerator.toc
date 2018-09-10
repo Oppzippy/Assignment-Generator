@@ -1,0 +1,10 @@
+## Interface: 80000
+## Title: Assignment Generator
+## Version: 1.0
+## Author: Oppzippy
+
+embeds.xml
+Core.lua
+AssignmentGenerator.lua
+FindBuilder.lua
+Helpers.lua

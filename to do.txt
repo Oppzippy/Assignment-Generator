@@ -1,0 +1,5 @@
+find[role=tank,class=paladin>priest>warlock>*,index=3]
+
+egroup[name=tanks,role=tank,count=2,index=1] -- second and third tank
+
+exclusive (named) class-role grp gens
