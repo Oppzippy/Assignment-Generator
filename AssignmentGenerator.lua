@@ -1,4 +1,5 @@
 local addon = AssignmentGeneratorAddon
+
 local AssignmentGenerator = {}
 AssignmentGenerator.__index = AssignmentGenerator
 
@@ -69,6 +70,8 @@ end
 local function CompareByPriority(a, b)
 	return a.priority > b.priority
 end
+
+-- TODO: Move this somewhere else
 
 function AssignmentGenerator:FindMatches(object)
 	local matches = {}

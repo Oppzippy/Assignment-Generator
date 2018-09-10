@@ -1,5 +1,5 @@
 AssignmentGeneratorAddon = LibStub("AceAddon-3.0"):NewAddon("AssignmentGenerator", "AceConsole-3.0")
-local addon = AssignmentGeneratorAddon
+local addon = AssignmentGeneratorAddon -- TODO: rename this
 
 function addon:OnInitialize()
 	addon:RegisterChatCommand("ag", "SlashCommand")
